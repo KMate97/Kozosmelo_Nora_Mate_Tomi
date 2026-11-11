@@ -1,6 +1,39 @@
 .menu {
-    display: ;
+    display: grid;
+    grid-template-columns: 200px auto;
     border: 1px solid black;
     border-radius: 5px;
-    
+    margin: auto;
 }
+
+.menu h1 {
+    margin: 20px auto 20px 20px;
+
+}
+
+.lista {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    justify-content: right;
+    margin: auto 50px auto 50px;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: ;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px auto 10px auto;
+}
+
+.hero h1 {
+    text-align: center;
+}
+
+.hero  section{
+    text-align: justify;
+    margin: 10px 20px 10px 20px;
+}
+
+.
