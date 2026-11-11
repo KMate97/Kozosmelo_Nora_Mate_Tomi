@@ -7,7 +7,7 @@
     <meta name="description" content="Az oldal rövid leírása.">
     <title>Mészár Tamás</title>
 
-    <link rel="stylesheet" href="stilus.css"
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
@@ -18,13 +18,15 @@
             <h1 class="csapatnev">A csapatunk neve</h1>
 
             <nav class="menu" aria-label="Fő navigáció">
-                <a href="#kezdolap">Kezdőlap</a>
-                <a href="#rolunk">Rólunk</a>
-                <a href="#masikoldal">Látogass ide</a>
+                <ul class="lista">
+                <li><a href="#kezdolap">Kezdőlap</a></li>
+                <li><a href="#rolunk">Rólunk</a></li>
+                <li><a href="#masikoldal">Kattints ide</a></li>
+                </ul>
             </nav>
         </header>
        
-        <article>
+        <article class="hero">
             <h2 class="visually-hidden">Validálásmiatt</h2>
 
                 <section class="tetszolegestartalom">
@@ -33,7 +35,7 @@
 
                         <div class="munka-racs">
                             <div class="munka-kartya">
-                                <img src="Kepek/hatter01.jpg" alt="Első háttér..">
+                                <img src="Kepek/hatter01.jpg" alt="Első kép..">
                                 <h3> 1 keret tartalom címe</h3>
                                 <p> Rövid leírás</p>
                                 <p class=""extra-szoveg">
@@ -41,7 +43,7 @@
                                 </p>
                             </div>
                             <div class="munka-kartya">
-                                <img src="Kepek/hatter02.jpg" alt="Első háttér..">
+                                <img src="Kepek/hatter02.jpg" alt="Másoodik kép..">
                                 <h3> 1 keret tartalom címe</h3>
                                 <p> Rövid leírás</p>
                                 <p class=""extra-szoveg">
@@ -49,7 +51,7 @@
                                 </p>
                             </div>
                             <div class="munka-kartya">
-                                <img src="Kepek/hatter03.jpg" alt="Első háttér..">
+                                <img src="Kepek/hatter03.jpg" alt="Harmadik kép..">
                                 <h3> 1 keret tartalom címe</h3>
                                 <p> Rövid leírás</p>
                                 <p class=""extra-szoveg">
@@ -61,10 +63,10 @@
                 </section>
         </article>
 
-        <aside class="jobb">
+        <aside class="hirlevel">
             <h2> HÍRLEVÉL</h2>
 
-                <div class="hirlevel">
+                <div class="hirlevel01">
                     <h3> Levél címe </h3>
                     <p> levél tartalma </p>
                 </div>
