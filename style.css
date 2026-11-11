@@ -1,4 +1,20 @@
+
+body {
+
+    background-color: beige;
+    color: rgb(51, 16, 16);
+}
+
+.fejlec {
+
+background-color: coral;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
 .menu {
+
   display: grid;
   grid-template-columns: 200px auto;
   border: 1px solid black;
@@ -11,6 +27,7 @@
 }
 
 .lista {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   display: grid;
   grid-template-columns: auto auto auto;
   gap: 50px;
@@ -19,6 +36,8 @@
 }
 
 .hero {
+  background-color: darksalmon; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
   display: grid;
   grid-template-columns:;
   border: 1px solid black;
@@ -36,6 +55,8 @@
 }
 
 .hirlevel {
+  background-color: indianred;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   display: grid;
   grid-template-columns:;
   border: 1px solid black;
