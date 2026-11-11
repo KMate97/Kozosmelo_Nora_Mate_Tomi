@@ -40,5 +40,13 @@
   grid-template-columns:;
   border: 1px solid black;
   border-radius: 5px;
-  margin: ;
+  margin: auto;
+}
+
+.lablec {
+  display: grid;
+  grid-template-columns:;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px auto 10px auto;
 }
